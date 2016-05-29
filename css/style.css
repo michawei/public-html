@@ -1,0 +1,106 @@
+p {
+	font-size: 16px;
+}
+
+button:focus {
+	outline: 0;
+}
+
+#banner {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.list-group {
+	text-align: center;
+}
+
+.copyright {
+	margin: 20px 0px;
+	text-align: center;
+	font-size: 11px;
+	color: #666666;
+	line-height: 24px;
+}
+
+.notice {
+	color: red;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+#content_2, #content_3, #content_4,
+#content_5, #content_6, #content_7, #content_8,
+#content_9, #content_10, #content_11, #content_12,
+#content_13 {
+	display: none;
+}
+
+#content_1 h4 {
+	font-weight: bold;
+	padding-left: 25px;
+}
+
+#content_1 p {
+	padding-left: 25px;
+}
+
+#content_1 h3 {
+	color: red;
+	font-weight: bold;
+}
+
+#content_1 a, #content_1 a:visited, #content_1 a:active, #content_1 a:focus{
+	color: #333333;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+#content_1 a:hover {
+	color: #31698a;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+#content_4 p {
+	padding-left: 25px;
+}
+
+#content_8 font {
+	color: gray;
+	font-size: 11px;
+}
+
+.paper-summit-button {
+	color: #333333;
+	font-size: 20px;
+	background-color: #eeeeee;
+	height: 60px;
+	width: 400px;
+	border: none;
+}
+
+.paper-summit-button:hover {
+	color: white;
+	background-color: #31698a;
+	border-radius: 2px;
+}
+
+.organization {
+	color: #666666;
+}
+
+.travel-topic {
+	font-weight: bold;
+}
+
+.travel-table td {
+	vertical-align: top;
+	line-height: 30px;
+	padding: 10px 10px;
+}
+
+.keynote-table td {
+	padding: 10px 10px;
+}
