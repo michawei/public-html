@@ -30,44 +30,37 @@ button:focus {
 	font-size: 16px;
 }
 
-#content_2, #content_3, #content_4,
-#content_5, #content_6, #content_7, #content_8,
-#content_9, #content_10, #content_11, #content_12,
-#content_13 {
-	display: none;
-}
-
-#content_1 h4 {
+#content_news h4 {
 	font-weight: bold;
 	padding-left: 25px;
 }
 
-#content_1 p {
+#content_news p {
 	padding-left: 25px;
 }
 
-#content_1 h3 {
+#content_news h3 {
 	color: red;
 	font-weight: bold;
 }
 
-#content_1 a, #content_1 a:visited, #content_1 a:active, #content_1 a:focus{
+#content_news a, #content_news a:visited, #content_news a:active, #content_news a:focus{
 	color: #333333;
 	cursor: pointer;
 	text-decoration: none;
 }
 
-#content_1 a:hover {
+#content_news a:hover {
 	color: #31698a;
 	cursor: pointer;
 	text-decoration: none;
 }
 
-#content_4 p {
+#content_conference_organization p {
 	padding-left: 25px;
 }
 
-#content_8 font {
+#content_conferance_venue font {
 	color: gray;
 	font-size: 11px;
 }
