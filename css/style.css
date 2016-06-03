@@ -16,6 +16,10 @@ button:focus {
 	text-align: center;
 }
 
+.list-group-item {
+	border: none;
+}
+
 .copyright {
 	margin: 20px 0px;
 	text-align: center;
@@ -30,9 +34,16 @@ button:focus {
 	font-size: 16px;
 }
 
-#content_news h4 {
-	font-weight: bold;
-	padding-left: 25px;
+.list-group-item {
+	font-size: 14px;
+    -webkit-transition: font-size 0.2s;
+       -moz-transition: font-size 0.2s;
+         -o-transition: font-size 0.2s;
+            transition: font-size 0.2s;
+}
+
+.list-group-item:hover {
+	font-size: 16px;
 }
 
 #content_news p {
@@ -44,10 +55,19 @@ button:focus {
 	font-weight: bold;
 }
 
+#content_news h4 {
+	font-weight: bold;
+	padding-left: 25px;
+}
+
 #content_news a, #content_news a:visited, #content_news a:active, #content_news a:focus{
 	color: #333333;
 	cursor: pointer;
 	text-decoration: none;
+    -webkit-transition: color 0.2s;
+       -moz-transition: color 0.2s;
+         -o-transition: color 0.2s;
+            transition: color 0.2s;
 }
 
 #content_news a:hover {
