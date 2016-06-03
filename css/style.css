@@ -7,9 +7,26 @@ button:focus {
 }
 
 #banner {
-  display: block;
-  max-width: 100%;
-  height: auto;
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+.row {
+	min-width: 1000px;
+	overflow: auto;
+}
+
+.col-lg-3 {
+	float: left;
+	max-width: 250px;
+	min-width: 200px;
+	position: relative;
+}
+
+.col-lg-9 {
+	float: left;
+	position: relative;
 }
 
 .list-group {
@@ -36,6 +53,7 @@ button:focus {
 
 .list-group-item {
 	font-size: 14px;
+	height: 45px;
     -webkit-transition: font-size 0.2s;
        -moz-transition: font-size 0.2s;
          -o-transition: font-size 0.2s;
