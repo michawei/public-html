@@ -94,6 +94,11 @@ button:focus {
 	text-decoration: none;
 }
 
+#content_conference_information p {
+	padding-left: 25px;
+	line-height: 28px;
+}
+
 #content_conference_organization p {
 	padding-left: 25px;
 }
@@ -103,20 +108,30 @@ button:focus {
 	font-size: 11px;
 }
 
+#content_papers p {
+	padding-left: 25px;
+}
+
 .paper-summit-button {
-	color: #333333;
+	color: white;
+	background-color: #31698a;
 	font-size: 20px;
-	background-color: #eeeeee;
 	height: 60px;
 	width: 400px;
 	border: none;
+	border-radius: 2px;
+	opacity: 0.6;
+    -webkit-transition: font-size 0.2s, opacity 0.2s;
+       -moz-transition: font-size 0.2s, opacity 0.2s;
+         -o-transition: font-size 0.2s, opacity 0.2s;
+            transition: font-size 0.2s, opacity 0.2s;
 }
 
 .paper-summit-button:hover {
-	color: white;
-	background-color: #31698a;
-	border-radius: 2px;
+	font-size: 22px;
+	opacity: 0.8;
 }
+
 
 .organization {
 	color: #666666;
