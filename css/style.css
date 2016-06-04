@@ -64,6 +64,45 @@ button:focus {
 	font-size: 16px;
 }
 
+.circle {
+	width: 60px;
+	height: 60px;
+	min-width: 10px;
+	min-height: 10px;
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	border-radius: 50px;
+	font-size: 20px;
+	color: #fff;
+	line-height: 60px;
+	text-align: center;
+	background-color: #31698a;
+	visibility: hidden;
+	opacity: 0;
+    -webkit-transition: opacity 0.3s, visibility 0.3s;
+       -moz-transition: opacity 0.3s, visibility 0.3s;
+         -o-transition: opacity 0.3s, visibility 0.3s;
+            transition: opacity 0.3s, visibility 0.3s;
+}
+
+.circle-visible {
+	visibility: visible;
+	opacity: 0.3;
+    -webkit-transition: opacity 0.3s, visibility 0s;
+       -moz-transition: opacity 0.3s, visibility 0s;
+         -o-transition: opacity 0.3s, visibility 0s;
+            transition: opacity 0.3s, visibility 0s;
+}
+
+.circle-visible:hover {
+	opacity: 0.6;
+}
+
+.circle:hover {
+	cursor: pointer;
+}
+
 #content_news p {
 	padding-left: 25px;
 }
