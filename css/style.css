@@ -1,5 +1,6 @@
 p {
 	font-size: 16px;
+	font-weight: 200;
 }
 
 button:focus {
@@ -27,6 +28,7 @@ button:focus {
 
 .col-lg-9 {
 	float: left;
+	max-width: 800px;
 	position: relative;
 }
 
@@ -108,28 +110,43 @@ button:focus {
 	padding-left: 25px;
 }
 
+#content_news .news-board {
+	padding: 8px 0px;
+}
+
+#content_news .news-board font {
+	color: #555555;
+	font-size: 22px;
+	font-weight: 200;
+	padding-left: 25px;
+}
+
 #content_news h3 {
 	color: red;
+	opacity: 0.6;
 	font-weight: bold;
 }
 
 #content_news h4 {
-	font-weight: bold;
+	font-size: 16px;
+	margin: 2px 0px;
+	color: #333333;
+	font-weight: 200;
 	padding-left: 25px;
 }
 
 #content_news a, #content_news a:visited, #content_news a:active, #content_news a:focus{
-	color: #333333;
+	color: #5889b5;
 	cursor: pointer;
 	text-decoration: none;
-    -webkit-transition: color 0.2s;
-       -moz-transition: color 0.2s;
-         -o-transition: color 0.2s;
-            transition: color 0.2s;
+    -webkit-transition: color 100ms;
+       -moz-transition: color 100ms;
+         -o-transition: color 100ms;
+            transition: color 100ms;
 }
 
 #content_news a:hover {
-	color: #31698a;
+	color: #ff7373;
 	cursor: pointer;
 	text-decoration: none;
 }
@@ -185,6 +202,9 @@ button:focus {
 	vertical-align: top;
 	line-height: 30px;
 	padding: 10px 10px;
+}
+.keynote-table {
+	overflow: auto;
 }
 
 .keynote-table td {
