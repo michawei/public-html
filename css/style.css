@@ -3,7 +3,7 @@ body {
 }
 
 p {
-	font-size: 18px;
+	font-size: 16px;
 	font-weight: 300;
 }
 
@@ -55,11 +55,11 @@ button:focus {
 .notice {
 	color: red;
 	font-weight: bold;
-	font-size: 18px;
+	font-size: 16px;
 }
 
 .list-group-item {
-	font-size: 16px;
+	font-size: 14px;
 	height: 45px;
     -webkit-transition: font-size 0.2s;
        -moz-transition: font-size 0.2s;
@@ -68,7 +68,7 @@ button:focus {
 }
 
 .list-group-item:hover {
-	font-size: 18px;
+	font-size: 16px;
 }
 
 .circle {
@@ -132,7 +132,7 @@ button:focus {
 }
 
 #content_news h4 {
-	font-size: 18px;
+	font-size: 16px;
 	margin: 2px 0px;
 	color: #333333;
 	font-weight: 200;
