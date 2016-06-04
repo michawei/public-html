@@ -1,6 +1,10 @@
+body {
+	font-family: "Helvetica Neue",Helvetica,Arial,Microsoft JhengHei,sans-serif;
+}
+
 p {
-	font-size: 16px;
-	font-weight: 200;
+	font-size: 18px;
+	font-weight: 300;
 }
 
 button:focus {
@@ -51,11 +55,11 @@ button:focus {
 .notice {
 	color: red;
 	font-weight: bold;
-	font-size: 16px;
+	font-size: 18px;
 }
 
 .list-group-item {
-	font-size: 14px;
+	font-size: 16px;
 	height: 45px;
     -webkit-transition: font-size 0.2s;
        -moz-transition: font-size 0.2s;
@@ -64,7 +68,7 @@ button:focus {
 }
 
 .list-group-item:hover {
-	font-size: 16px;
+	font-size: 18px;
 }
 
 .circle {
@@ -128,7 +132,7 @@ button:focus {
 }
 
 #content_news h4 {
-	font-size: 16px;
+	font-size: 18px;
 	margin: 2px 0px;
 	color: #333333;
 	font-weight: 200;
