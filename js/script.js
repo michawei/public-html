@@ -15,6 +15,7 @@ $(window).scroll(function (event) {
 $( document ).ready(function() {
     if (navigator.appVersion.indexOf("Win") != -1) {
         $("p").css("font-weight", "initial")
+        $("body").css("font-family", "Arial,Microsoft JhengHei,sans-serif");
     }
     // if (navigator.appVersion.indexOf("Mac")!=-1)
     //     console.log("Mac");
