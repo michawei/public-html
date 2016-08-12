@@ -12,8 +12,8 @@ var session_click = function(s) {
 }
 
 var gotoPaper = function(paper) {
-    paperURL = paperURL + paper;
-    var win = window.open(paperURL, '_blank');
+    paper = paperURL + paper;
+    var win = window.open(paper, '_blank');
     win.focus();
 }
 
