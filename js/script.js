@@ -1,5 +1,20 @@
+var sessionNum = "#Session_1"
+var paperURL = "http://cvgip2016.csie.ntu.edu.tw/proceeding/papers/"
+
 var scrollToTop = function() {
 	$("html, body").animate({ scrollTop: 0 }, "fast");
+}
+
+var session_click = function(s) {
+    $(sessionNum).css("display", "none");
+    $(s).css("display", "block");
+    sessionNum = s;
+}
+
+var gotoPaper = function(paper) {
+    paper = paperURL + paper;
+    var win = window.open(paper, '_blank');
+    win.focus();
 }
 
 $(window).scroll(function (event) {
